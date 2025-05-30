@@ -1,0 +1,79 @@
+
+*{
+  margin: 1px;
+  background-color: hsl(192, 79%, 71%);
+}
+.App {
+  background-color: hsl(192, 79%, 71%);
+  max-width: 100%;
+  
+}
+
+
+
+.card{
+  border: 1px solid hsl(0, 0%, 0%);
+  background-color: rgb(227, 245, 250);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.529);
+  padding:  20px;
+  margin:  20px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card img{
+  max-height: 60%;
+  max-width: 60%;
+  
+}
+
+.card .CardTitle{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgb(227, 245, 250);
+  color: hsl(0, 0%, 21%);
+}
+.card .CardText{
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  background-color: rgb(227, 245, 250);
+  color: hsl(0, 0%, 30%);
+}
+
+
+.Cards{
+  display: flex;
+  justify-content: center;
+}
+
+.Button{
+  background-color: rgb(189, 189, 40);
+  color: hsl(0, 0%, 0%);
+  padding: 2px 10px;
+
+  margin: 0px 25px;
+  height: 45px;
+  width: 100px;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.student{
+  margin: 20px;
+  border: 1px solid black;
+  background-color: azure;
+  
+  
+}
+
+
+.studentData{
+  background-color: azure;
+}
+
+
+
